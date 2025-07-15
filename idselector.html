@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID selectors</title>
+    <style>
+        #latestProduct .container .row #col{
+            height: auto;
+            width: 180px;
+            color: black;
+            border: 2px solid;
+            background-color: darkolivegreen;
+            text-align:justify;
+        }
+        #latest .container .row #col .content{
+            /* color: yellow; */
+        }
+        #latest .container .row div{
+            color: yellow;
+        }
+        #BestSellingProducts .container .row #col{
+            height: 100px;
+            width: 150px;
+            border: 2px black solid;
+        }
+        #BestSellingProducts .container .row #col img{
+            height: inherit !important;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <section id="latestProduct">
+    <div class="container">
+        <div class="row">
+            <h1>aptech pakistan</h1>
+            <div class="content C1" id="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel similique recusandae voluptas blanditiis accusantium, ullam cum quidem exercitationem esse consequatur maiores perspiciatis cumque! Veniam soluta quisquam voluptatum dolores consectetur provident
+    </div>
+    <div id="col" class="content c2">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni ab autem accusantium rem temporibus aperiam voluptate laborum porro necessitatibus, error exercitationem. At excepturi possimus quia, iusto voluptate tempore ullam
+        </p>
+    </div>
+    </div>
+    </section>
+    <!-- /* yahan se dusra container start horaha ha  */ -->
+<section id="BestSellingProducts">
+    <div class="container">
+        <div class="row">
+            <div id="col">
+                <img src="image1.jpg" alt="car">
+                </div>
+                <div id="col">
+             <img src="image2.jpg" alt="car">
+                </div>
+                   
+<div id="col">
+ <img src="image3.jpg" alt="car">
+        </div>
+                   
+<div id="col">
+    <img src="image4.jpg" alt="car">
+</div>
+                    
+
+        
+        </div>
+</div>
+</section>
+</body>
+</html>
