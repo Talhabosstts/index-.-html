@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PakWheels</title>
+    <style>
+        body {
+            /* color: aliceblue; */
+            /* background-color: rgb(0, 60, 255); */
+        }
+
+        .container {
+            height: 80px;
+            width: 100%;
+            border-bottom: 1px solid rgb(124, 113, 113);
+            
+        }
+
+        .container .navbar {
+            height: inherit;
+            width: 80%;
+            /* border: 1px solid yellow; */
+            margin: 0px auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .container .navbar .logo {
+            /* border: 1px solid green; */
+            height: inherit;
+            width: 15%;
+            color: rgb(173, 4, 4);
+
+
+        }
+        .logo span{
+            color: darkblue;
+        }
+
+        .container .navbar .nav {
+            /* border: 1px solid red; */
+            height: inherit;
+            width: auto;
+            display: inline;
+        }
+
+        .container .navbar .nav ul li {
+
+            display: inline;
+
+            /* background-color: yellow; */
+            list-style: none;
+            padding: 15px;
+            margin-left: 10px;
+            text-align: center;
+            /* color: aliceblue; */
+        }
+        #NewCar{
+            position: relative;
+
+        }
+        .dropdown{
+            position: absolute;
+            background-color: cadetblue;
+            left: 30px;
+            width: 100px;
+            padding: 10px;
+            display: none;
+        }
+        #NewCar:hover .dropdown{
+            display: block;
+        }
+        #cover .background{
+            background-image: images;
+            height: 600px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        #cover .background .col{
+            width: 30%;
+            padding: 10px;
+            position: relative;
+            top: 30%;
+            left: 5%;
+        }
+        #cover .background .col h1{
+            text-align: center;
+            font-size: 55px;
+
+        }
+        #cover .background .col h1 span{
+            color: green;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- header start -->
+    <header>
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <h1>Pak<span>Wheels</span></h1>
+                </div>
+
+                <div class="nav">
+                    <Ul>
+                        <Li>Home</Li>
+                        <Li>Used Car</Li>
+                        <Li id="NewCar">New Car <I class="fa fa caret-down"></I>
+                            <div class="dropdown">
+                                <div class="item">Prices</div>
+                                <div class="item">On Road Price</div>
+                                <div class="item">Car Dea</div>
+                            </div>
+                        </Li>
+                        <Li>Policy</Li>
+                        <li>Contact us</li>
+                        <li>Faq</li>
+
+                    </Ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end -->
+
+    <section id="cover">
+        <div class=" backgriound">
+            <div class="col">
+                <h1><span>Welcome</span> to our platform</h1>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>

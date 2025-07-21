@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>PakWheels</title>
+    <style>
+        .container {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            height: 80px;
+            width: 100%;
+            border-bottom: 1px solid gray;
+            justify-content: space-between;
+        }
+
+        .logo { 
+            font-family: sans-serif;
+            color: rgb(163, 4, 4);
+            text-align: center;
+            padding-left: 100px;
+           
+            
+        }
+        .logo span{
+            font-family: sans-serif;
+            color: rgb(5, 5, 155);
+        }
+        .nav ul{ 
+            display: flex;
+            list-style: none;
+            padding-right: 80px;
+            
+        }
+         .nav ul li{
+            display: inline;
+            padding: 10px 15px;
+            position: relative;
+            
+         }
+         .nav ul li a{
+            color: rgb(5, 5, 155);
+            text-decoration: none;
+            font-size: 18px;
+            transition: all 0.3s;
+         }
+         .nav ul li a:hover{
+            color:rgb(163, 4, 4);
+         }
+         .dropdown{
+            display: none;
+         }
+        .nav ul li:hover .dropdown{
+            display: block;
+            position: absolute;
+            top: 30px;
+            left: 0%;
+            background-color: rgb(226, 223, 218);
+            width: 150px;
+         }
+        .nav ul li:hover .dropdown ul{
+            display: block;
+            margin: 10px;
+         }
+         .nav ul li:hover.dropdown ul li{
+            width: 100px;
+         }
+         .fas{
+            float: right;
+            margin-left: 10px;
+            padding-top: 5px;
+         }
+         .dropdown1{
+            display: none;
+         }
+       .nav ul li:hover .dropdown1{
+            display: block;
+            position: absolute;
+            top: 30px;
+            left: 0px;
+            width: 150px;
+            background-color: rgb(226, 223, 218);
+        }
+         
+         
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <h1>Pak<span>Wheels</span></h1>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="#">Used Car<i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown">
+                         <ul>
+                            <li><a href="#">Toyota</a></li>
+                            <li><a href="#">Honda</a></li>
+                            <li><a href="#">Hilux</a></li>
+                            <li><a href="#">Suzuki</a></li>
+                            <li><a href="#">Mazda</a></li>
+                            <li><a href="#">Nissan</a></li>
+                            <li><a href="#">More<i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown1">
+                                <ul>
+                                    <li><a href="#">supra</a></li>
+                                    <li><a href="#">buggati</a></li>
+                                    <li><a href="#">lamborghini</a></li>
+                                    <li><a href="#">mclaren</a></li>
+                                    <li><a href="#">mehran</a></li>
+                                    <li><a href="#">audi</a></li>
+                                    <li><a href="#">mercedes</a></li>
+                                </ul>
+
+                            </div>
+                        </li>
+                            
+    
+                         </ul>
+                        </div>
+                    
+                        <li><a href="#">New Car</a></li>
+                        <li><a href="#">Electric Car</a></li>
+                        <li><a href="#">Bikes</a></li>
+                        <li><a href="#">Sell</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
