@@ -14,41 +14,33 @@
 
         .navbar {
             display: flex;
-            height: 80px;
+            height: 70px;
             width: 100%;
-            border-bottom: 1px solid gray;
+            border-bottom: 1px solid rgb(5, 5, 112);
             justify-content: space-between;
+            background-color: rgb(5, 5, 112);
         }
-
-        .logo { 
-            font-family: sans-serif;
-            color: rgb(163, 4, 4);
-            text-align: center;
-            padding-left: 100px;
-           
-            
-        }
-        .logo span{
-            font-family: sans-serif;
-            color: rgb(5, 5, 155);
-        }
+        .logo img{ 
+            /* border: 1px solid black ; */
+            margin-top: -225px; 
+            size: 300px;
+        } 
         .nav ul{ 
             display: flex;
             list-style: none;
-            padding-right: 80px;
-            
+            padding-right: 80px;   
         }
          .nav ul li{
             display: inline;
             padding: 10px 15px;
+            margin-left: 20px;
             position: relative;
-            
          }
          .nav ul li a{
-            color: rgb(5, 5, 155);
+            color: rgb(226, 223, 218);
             text-decoration: none;
-            font-size: 18px;
-            transition: all 0.3s;
+            font-size: 15px;
+            transition: all 0.5s;
          }
          .nav ul li a:hover{
             color:rgb(163, 4, 4);
@@ -59,9 +51,9 @@
         .nav ul li:hover .dropdown{
             display: block;
             position: absolute;
-            top: 30px;
+            top: 20px;
             left: 0%;
-            background-color: rgb(226, 223, 218);
+            background-color: rgb(5, 5, 112);
             width: 150px;
          }
         .nav ul li:hover .dropdown ul{
@@ -85,9 +77,8 @@
             top: 30px;
             left: 0px;
             width: 150px;
-            background-color: rgb(226, 223, 218);
-        }
-         
+            background-color: rgb(5, 5, 112);
+        }  
          
     </style>
 </head>
@@ -97,7 +88,7 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <h1>Pak<span>Wheels</span></h1>
+                    <h1><img src="image.89.png" alt="logo"></h1>
                 </div>
                 <div class="nav">
                     <ul>
