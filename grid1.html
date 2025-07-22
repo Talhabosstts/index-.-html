@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .container{
+           display: grid;
+           grid-template-columns: repeat(auto-fit,minimax(250px,1fr));
+            grid-template-rows: 200px;
+            grid-auto-flow: dense;
+            grid-gap: 10px;
+        }
+        .col{
+            display: flex;
+        }
+        img{
+            height: auto;
+            width:auto ;
+            border-radius: 10px;
+        }
+        .col-1{
+            grid-column: span 2;
+        }
+        .col-2{
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+        .col-3{
+            grid-row: span 2;
+            grid-column: span 2;
+
+        }
+        
+
+          
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="col col-1"><img src="image2.jpg" alt=""></div>
+        <div class="col col-2"><img src="image46.jfif" alt=""></div>
+        <div class="col col-3"><img src="image47.jfif" alt=""></div>
+        <div class="col col-4"><img src="image48.jfif" alt=""></div>
+        <div class="col col-5"><img src="images.jfif" alt=""></div>
+        <div class="col col-6"><img src="image8.jfif" alt=""></div>
+    </div>
+
+</body>
+
+</html>
