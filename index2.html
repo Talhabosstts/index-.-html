@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/* banner bar styling starts */
+header .banner{
+height:40px;
+width: 100%;
+background: linear-gradient(to top, rgb(0, 0, 22), rgb(0,0,27,255));
+}
+
+
+
+
+
+header .banner .bannerbar{
+    position:relative;
+    height: inherit;
+    width:80%;
+    top: 10px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-bottom: 1px solid rgb(106, 100, 90);
+   
+}
+header .bannerbar .app{
+    position: relative;
+
+}
+
+header .banner .bannerbar .account span{
+    color: rgb(220, 18, 18); 
+}
+
+header .banner .bannerbar .account ul li{
+    display:inline;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+/* banner bar styling ends */
+
+/* nav bar styling starts */
+
+header .container{
+height:120px;
+width: 100%;
+margin-top: -5px;
+background: linear-gradient(to bottom, rgb(0,0,27,255), rgb(0,10,22,255));
+}
+
+header .container .navbar{
+    position: relative;
+    height: inherit;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+
+
+header .container .navbar .nav{
+position: relative;
+
+}
+header .container .navbar .nav ul li{
+    display:inline;
+    justify-content: space-between;
+    width:80%;
+    height:inherit;
+    position: relative;
+    top: -30px;
+    margin-left: 90px;
+    color: white;
+    
+}
+
+
+
+header .container .navbar .logo{
+    position: relative;
+    top: 30px;
+}
+
+/* used cars dropdown starts */
+
+#usedcars{
+
+    position: relative;
+    left: -280px;
+    top: 30px;
+}
+
+#usedcars .menu-item {
+  position: relative;
+}
+.dropdown1{
+
+    position: absolute;
+    width:100px;
+    padding:30px;
+     display: none;
+     z-index: 10;
+     background-color: white;
+     color: black;
+}
+
+
+.dropdown1 .item{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+
+#usedcars:hover .dropdown1{
+    display: block;
+}
+
+/* videos button starts */
+/* #videos{
+
+    position: relative;
+    
+}
+
+#videos .menu-item4 {
+    position: relative;
+    left: 60px;
+    top: 60px;
+}  */
+
+/* new car dropdown starts */
+#newcars{
+
+    position: relative;
+    left: -150px;
+    top: 10px;
+}
+
+#newcars .menu-item2 {
+  position: relative;
+}
+.dropdown2{
+
+    position: absolute;
+    width:100px;
+    padding:30px;
+     display: none;
+     z-index: 10;
+     background-color: white;
+     color: black;
+}
+
+
+.dropdown2 .item2{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+
+#newcars:hover .dropdown2{
+    display: block;
+}
+
+
+
+/* bikes dropdown starts */
+#bikes{
+
+    position: relative;
+    top: -8px;
+    left: -20px;
+}
+
+#bikes .menu-item3 {
+  position: relative;
+}
+.dropdown3{
+
+    position: absolute;
+    width:100px;
+    padding:30px;
+     display: none;
+     z-index: 10;
+     background-color: white;
+     color: black;
+}
+
+
+.dropdown3 .item3{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+
+#bikes:hover .dropdown3{
+    display: block;
+}
+
+/* Auto store dropdown starts */
+#store{
+
+    position: relative;
+    left:70px;
+}
+
+#store .menu-item4 {
+  position: relative;
+}
+.dropdown4{
+
+    position: absolute;
+    width:100px;
+    padding:30px;
+     display: none;
+     z-index: 10;
+     background-color: white;
+     color: black;
+}
+
+
+.dropdown4 .item4{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+
+#store:hover .dropdown4{
+    display: block;
+}
+
+
+
+
+
+header .container .navbar .nav span{
+    background-color: rgb(165, 12, 12);
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+header .container .navbar .logo img{
+    height: 45px;
+    position: relative;
+}
+header .container .navbar .logo{
+    width: 20%;
+}
+
+
+/* nav bar styling ends */
+
+
+
+
+/* cover styling starts */
+
+header #cover {
+    position:relative;
+    top: -35px;
+    height: 450px;
+    width: 100%;
+    background:linear-gradient(to bottom, rgb(0,10,22,255),rgb(1,55,118,255));
+
+}
+
+header #cover h1{
+position: relative;
+top:130px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+header #cover h4{
+position: relative;
+top:140px;
+font-weight: 200;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+header #cover .rect{
+    display: flex;
+    position: relative;
+    top:170px;
+height: 50px;
+width:50%;
+background-color: white;
+margin: 0px auto;
+border-radius: 5px;
+}
+
+header #cover .rect2{
+    position: relative;
+    top:120px;
+    right:-1200px;
+height: 50px;
+width:5%;
+background-color: rgb(9, 153, 59);
+border-radius: 5px;
+}
+
+header #cover .background .rect2 li{
+    position: relative;
+    top: 15px;
+
+    list-style: none;
+    display: inline;
+    margin-left: 35px;
+    color:rgb(253, 253, 253);
+    justify-content: space-between;
+    font-size: 20px;
+    
+}
+header #cover .background .rect ul li{
+    position: relative;
+    top: 20px;
+    list-style: none;
+    display: inline;
+    margin-left: 90px;
+    color:rgb(93, 97, 100);
+    justify-content: space-between;
+    
+}
+header #cover .background .rect ul li span{
+position: relative;
+/* left:-70px; */
+}   
+
+header #cover .filter{
+    position: relative;
+    top: 150px;
+    height:20px;
+    width:9%;
+    border:1px solid white;
+    margin: 0px auto;
+}
+
+header #cover .filter .filtext{
+    position: relative;
+    bottom: -4px;
+    color:white;
+    font-size: 12px;
+    text-align: center;
+}
+/* cover styling ends */
+
+ .title {
+            font-family: sans-serif;
+            color: rgb(83, 81, 81);
+            text-align: center;
+            margin-top: 650px;
+            font-size: 30px;
+            margin-left: 60px;
+        }
+
+        .box {
+            border: 1px solid rgba(175, 171, 171, 0.808);
+            height: 300px;
+            width: 800px;
+            margin-left: 300px;
+
+        }
+
+        .box .col1 {
+            /* border: 1px solid rgb(175,171,171,0.808); */
+            height: 300px;
+            width: 400px;
+            text-align: center;
+            font-size: 20px;
+            margin-top: 100px;
+            padding: 10px;
+
+            h2 {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color: rgba(44, 65, 136, 0.808);
+                font-weight: bold;
+            }
+
+            button {
+                height: 40px;
+                width: 180px;
+                background-color: rgb(165, 12, 12);
+                font-size: 20px;
+                font-weight: 500;
+                border-radius: 6px;
+                color: white;
+                margin-top: 20px;
+            }
+        }
+
+        .box .col2 {
+            /* border: 1px solid rgb(175,171,171,0.808); */
+            height: 300px;
+            width: 400px;
+            margin-left: 400px;
+            margin-top: -320px;
+            text-align: center;
+            font-size: 20px;
+            /* padding: 10px; */
+
+            h2 {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color: rgba(44, 68, 146, 0.808);
+                font-weight: bold;
+
+            }
+
+            button {
+                height: 40px;
+                width: 220px;
+                background-color: rgba(44, 65, 136, 0.808);
+                font-size: 20px;
+                font-weight: 500;
+                border-radius: 6px;
+                color: white;
+                margin-top: 25px;
+            }
+
+        }
+
+        .container3 {
+            border: 1px solid rgb(129, 128, 128);
+
+        }
+        .title2{
+            p{
+                font-weight: 700px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 35px
+            }
+        }
+        .boxes{
+            /* border: 1px solid black; */
+            /* height: 600px; */
+            /* width: 100%; */
+            /* color: rgb(179, 174, 174); */
+        }
+        .category{
+            font-size: 28px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+        }
+        .category ul li{
+            padding: 10px;
+            display: inline;
+            margin-left: 80px;
+        }
+        .container5{
+            border: 1px solid black;
+
+        }
+        .container5 .col{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+        }
+        .col2{
+            margin-left: 120px;
+            margin-top: -120px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <!-- banner starts -->
+        <div class="banner">
+            <div class="bannerbar">
+                <div class="app">
+                    <h5><i class="fa-solid fa-mobile-screen-button" ;
+                            style="color: rgb(165, 7, 7); margin-right:8px;"></i> Download App Via SMS</h5>
+                </div>
+                <div class="account">
+                    <ul>
+                        <li><span>اردو</span> </li>
+                        <li> | Sign in | </li>
+                        <li>Sign Up </li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- banner ends-->
+
+            <!-- navbar starts-->
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="image38" alt="" class="src">
+                    </div>
+                    <div class="nav">
+
+                        <ul>
+                            <li id="usedcars">
+                                <div class="menu-item"></div>
+                                Used Cars <i class="fa fa-caret-down"></i>
+                                <div class="dropdown1">
+                                    <div class="item">Find used Cars for sale</div>
+                                    <div class="item">Featured Used Cars</div>
+                                    <div class="item">Sell your Car</div>
+                                    <div class="item">Used Car Dealer</div>
+                                    <div class="item">Price Calculator</div>
+                                </div>
+
+                            </li>
+                            <li id="newcars">
+                                <div class="menu-item2"></div>
+                                New Cars<i class="fa fa-caret-down"></i>
+
+                                <div class="dropdown2">
+                                    <div class="item2">Find new Cars</div>
+                                    <div class="item2">Cars Comparison</div>
+                                    <div class="item2">Reviews</div>
+                                    <div class="item2">Price</div>
+                                    <div class="item2">On Road Price</div>
+                                </div>
+                            </li>
+
+
+                            <li id="bikes">
+                                <div class="menu-item3"></div>
+                                Bikes<i class="fa fa-caret-down"></i>
+                                <div class="dropdown3">
+                                    <div class="item3">Find used bikes</div>
+                                    <div class="item3">used bikes listings</div>
+                                    <div class="item3">featured used bikes</div>
+                                    <div class="item3">sell your bikes</div>
+                                    <div class="item3">used bikes dealers</div>
+                                </div>
+
+
+                            </li>
+
+                            <li id="store">
+                                <div class="menu-item4"></div>
+                                Auto Store<i class="fa fa-caret-down"></i>
+                                <div class="dropdown4">
+                                    <div class="item4">Pakwheels Auto Store</div>
+                                    <div class="item4">Find Auto parts</div>
+                                    <div class="item4">Sell Auto Parts</div>s
+
+                                </div>
+                            </li>
+                            <li>Videos </li>
+                            <li>Forum</li>
+                            <li>Blog</li>
+                            <li>More<i class="fa fa-caret-down"></i></li>
+                            <li> <span>Post An Ad <i class="fa fa-caret-down"></i></span></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <!-- navbar ends-->
+
+            <!-- cover starts-->
+            <section id="cover">
+                <div class="background">
+                    <div class="col">
+                        <div>
+                            <h1>Find Used Cars in Pakistan</h1>
+                        </div>
+                        <div>
+                            <h4>With thousands of cars, we have just the right one for you</h4>
+                        </div>
+                        <div class="rect">
+                            <ul>
+
+                                <li><span>Car Make or Model</span></li>
+                                <li>All Cities<i class="fa fa-caret-down" ; style="color: rgb(71, 69, 69);"></i></li>
+                                <li>Price Range<i class="fa fa-caret-down"></i></li>
+
+
+                            </ul>
+                        </div>
+                        <div class="rect2">
+
+
+                            <li><i class="fa fa-search"></i></li>
+                        </div>
+
+                    </div>
+                    <div class="filter">
+
+                        <div class="filtext">
+                            <p>Advanced Filter <i class="fa fa-caret-right"></i></p>
+                        </div>
+                    </div>
+
+
+                </div>
+        </div>
+        </section>
+        <!-- cover ends-->
+        </div>
+    </header>
+      <section>
+        <div class="title">
+            <h3>Sell Your Car On PakWheels And Get The Best Price</h3>
+
+        </div>
+        <div class="box">
+            <div class="col">
+                <div class="col1">
+                    <h2>Sell it Myself!</h2>
+                    <li>post an ad in 2 minutes</li>
+                    <li>2 million users</li>
+                    <li>connect directly with buyers</li>
+                    <button>Post Ad</button>
+                </div>
+
+                <div class="col2">
+                    <h2> Sell It For Me</h2>
+                    <li>Sell Your Car Without Hassel</li>
+                    <li>Free Inspection And Ad</li>
+                    <li>Maximize Offer With Sales</li>
+                    <button>Help To Sell My Car!</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div class="container3">
+            <div class="title2">
+                <p>Browse Used Car</p>
+
+            </div>
+            <div class="boxes">
+            <div class="category">
+                <ul>
+                    <li>
+                        <div class="category1"></div>Category<i class="fa fa fa-caret-down"></i>
+                    </li>
+                    <li>City</li>
+                    <li>Make</li>
+                    <li>Model</li>
+                    <li>Budget</li>
+                    <li>Body Type</li>
+                </ul>
+
+            </div>
+            <div class="container5">
+                <div class="col col1"></div><img src="imagea" alt="">
+                <div class="col col2"></div><img src="" alt="">
+                <div class="col col3"></div><img src="" alt="">
+                <div class="col col4"></div><img src="" alt="">
+                <div class="col col5"></div><img src="" alt="">
+                <div class="col col6"></div><img src="" alt="">
+                <div class="col col7"></div><img src="" alt="">
+                <div class="col col8"></div><img src="" alt="">
+                <div class="col col9"></div><img src="" alt="">
+                <div class="col col10"></div><img src="" alt="">
+                <div class="col col11"></div><img src="" alt="">
+                <div class="col col12"></div><img src="" alt="">
+
+
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+    </section>
+
+    
+</body>
+</html>
